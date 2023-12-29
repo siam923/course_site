@@ -22,7 +22,7 @@ const slides = [
 
 const HeroSlider = () => {
   return (
-    <section className="text-black bg-yellow-500 ">
+    <section className="relative z-0 -mt-16 text-black bg-yellow-500 ">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -47,7 +47,6 @@ const HeroSlider = () => {
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center"
-                  className="h-96"
                 />
                 <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40 flex flex-col justify-center items-center">
                   <h1 className="text-3xl md:text-5xl text-white font-bold text-center">

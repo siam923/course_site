@@ -1,9 +1,16 @@
-import Link from 'next/link';
-import { Instagram, Linkedin, Facebook, Twitter, Mail, Phone } from 'lucide-react';
+import Link from "next/link";
+import {
+  Instagram,
+  Linkedin,
+  Facebook,
+  Twitter,
+  Mail,
+  Phone,
+} from "lucide-react";
 
 const Topbar = () => {
   return (
-    <div className="bg-blue-700 bg-opacity-80 shadow-md text-white py-2">
+    <div className="bg-[#721915] bg-opacity-80 shadow-md text-white py-2">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
         <div className="hidden lg:flex space-x-4 mb-2 lg:mb-0">
           <Link href="#" className="hover:text-blue-200">
@@ -21,13 +28,16 @@ const Topbar = () => {
         </div>
         <ul className="flex space-x-4">
           <li className="hidden lg:flex items-center">
-            <Mail className='mr-2'/>
-            <Link href="mailto:tawhidacademy.info@gmail.com" className="hover:text-blue-200">
+            <Mail className="mr-2" />
+            <Link
+              href="mailto:tawhidacademy.info@gmail.com"
+              className="hover:text-blue-200"
+            >
               tawhidacademy.info@gmail.com
             </Link>
           </li>
           <li className="hidden lg:flex items-center">
-            <Phone width={20} className='mr-2'/>  {' '} 020 3149 9484
+            <Phone width={20} className="mr-2" /> 020 3149 9484
           </li>
           <li>
             <Link href="#" className="btn" title="Login">
