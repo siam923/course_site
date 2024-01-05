@@ -1,9 +1,9 @@
-import Books from "@/components/home/Books";
+import RegPrint from "@/components/reg/RegPrint";
 
 export default function Home() {
   return (
-    <main className="border-2 border-gray-500">
-      <Books />
-    </main>
+    <div className="my-4 contain mx-auto max-w-3xl">
+      <RegPrint />;
+    </div>
   );
 }

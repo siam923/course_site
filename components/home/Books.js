@@ -4,22 +4,22 @@ const products = [
   {
     title: "AL QAWAID",
     price: 6,
-    imageUrl: "/courses/1.jpg",
+    imageUrl: "/books/1.jpeg",
   },
   {
     title: "Dua Book",
     price: 4,
-    imageUrl: "/courses/1.jpg",
+    imageUrl: "/books/2.jpeg",
   },
   {
     title: "Hadith Book",
     price: 8,
-    imageUrl: "/courses/1.jpg",
+    imageUrl: "/books/2.jpeg",
   },
   {
     title: "Understanding Quranic Arabic",
     price: 4,
-    imageUrl: "/courses/1.jpg",
+    imageUrl: "/books/2.jpeg",
   },
 ];
 

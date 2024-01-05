@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="flex flex-col gap-2">
       <HeroSlider />
       <Announcements />
       <Welcome />

@@ -53,7 +53,7 @@ const MainNav = () => {
       </div>
 
       {isOpen && (
-        <div className="bg-[#721915]  md:hidden">
+        <div className="color  md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navLinks.map((linkItem, index) => (
               <Link
